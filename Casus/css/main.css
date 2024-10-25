@@ -1,0 +1,361 @@
+/*To let te containers in the whole page be at the center*/
+body {
+    background-color: #10151A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat,sans-serif";
+}
+/*Header*/
+.container1 {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: -8px;
+    width: 100%;
+    height: 106px;
+    background-color: #10151A;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+/*Create space in the column containers*/
+.spacecontainer1 {
+    width: 100%;
+    height: 100px;
+}
+/*Logo size*/
+.logo {
+    width: 172px;
+    height: 56px;
+}
+/**/
+.topnav {
+    background-color: #10151A;
+}
+/**/
+.topnav a {
+    color: #E5E5E5;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+/**/
+.login {
+    background-color: gray;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+/**/
+.container2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 649px;
+    height: 412px;
+    background-color: #10151A;
+}
+.spacecontainer2 {
+    width: 100%;
+    height: 100px;
+}
+/*Text decoration*/
+.text {
+    color: #E5E5E5;
+    font-size: 230%;
+}
+
+.text2 {
+    color: #E5E5E5;
+    font-size: 70%;
+    margin-bottom: 30px;
+}
+/**/
+.container3 {
+    width: 649px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/**/
+.get-started {
+    width: 214px;
+    height: 68px;
+    background-color: #ceaaff;
+    color: #10151A;
+    font-size: x-large;
+    border-radius: 20px;
+    border: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*Navigation*/
+.pijl-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pijltjes {
+    width: 50px;
+    height: 50px;
+}
+/**/
+.stercontainer {
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+/*Photo star*/
+.sterren {
+width: 100px;
+height: 100px;
+}
+/*Box to help the photo go to place with justify content*/
+.niks-box1 {
+width: 89px;
+height: auto;
+}
+
+.niks-box2 {
+    width: 89px;
+    height: auto;
+}
+/**/
+.container4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #10151A;
+}
+/**/
+.project {
+    width: 1140px;
+    height: 80px;
+    text-align: center;
+    color: #E5E5E5;
+    font-size: 25px;
+}
+/*Thousand photos*/
+.afbeeldingen {
+    width: 1140px;
+    height: 493px;
+    margin-bottom: 50px;
+}
+/*Photo size*/
+.duizend-afbeeldingen {
+    width: 1140px;
+    height: 493px;
+}
+/**/
+.buttons {
+    width: 1140px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/**/
+.button-rij1 {
+    display: flex;
+    justify-content: center;
+    width: 889px;
+    height: 56px;
+    display: flex;
+   flex-direction: row;
+}
+/**/
+.button-rij2 {
+    display: flex;
+    justify-content: center;
+    width: 510px;
+    height: 56px;
+}
+/**/
+.investment {
+    background-color: #2A3744;
+    color: #FFB4D3;
+    border-radius: 40px;
+    margin: 10px;
+    height: 40px;
+}
+/**/
+.startup {
+    background-color: #2A3744;
+    color: #FFC24C;
+    border-radius: 40px;
+    margin: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+/**/
+.service {
+    background-color: #2A3744;
+    color: #D387F7;
+    border-radius: 40px;
+    margin: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+/**/
+.community {
+    background-color: #2A3744;
+    color: #77E6FF;
+    border-radius: 40px;
+    margin: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+/*Decoration for the buttons*/
+.impact {
+    background-color: #2A3744;
+    color: #23C9DE;
+    border-radius: 40px;
+    margin: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.defi {
+    background-color: #2A3744;
+    color: #FF9E9E;
+    border-radius: 40px;
+    margin: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.more {
+    background-color: #2A3744;
+    color: #707F8D;
+    border-radius: 40px;
+    width: 100px;
+    font-size: 15px;
+    margin: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+/*Star photo2*/
+.geelroze {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+.geel-rozester {
+    width: 100px;
+    height: 75px;
+}
+
+/*Invisible box to help the stars move to the right place*/
+.hulp-box{
+    width: 300px;
+    height: auto;
+}
+/*The container*/
+.columntext {
+width: 1140px;
+height: 580px;
+background-color: #10151A;
+text-align: center;
+}
+/*Container in a container*/
+.zinnen {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+/*Decoration for the text*/
+.designed {          
+width: 1140px;
+height: 80px;
+color: #E5E5E5;
+}
+.organisation {
+width: 480px;
+height: 64px;
+color: #37424D;
+}
+.smart {
+width: 684px;
+height: 64px;
+color: #37424D;
+}
+.fundraising {
+width: 278px;
+height: 64px;
+color: #37424D;
+}
+.launch {
+width: 429px;
+height: 64px;
+color: #FFB4D3;
+}
+.member {
+width: 490px;
+height: 64px;
+color: #37424D;
+}
+.contributor {
+width: 607px;
+height: 64px;
+color: #37424D;
+}
+.GOOSE{
+width: 458px;
+height: 64px;
+color: #37424D;
+}
+
+/*Works with container*/
+
+.spacecontainer3 {
+    width: 100%;
+    height: 100px;
+}
+.works-with {
+width: 1140px;
+height: 340px;
+background-color: #E5E5E5;
+}
+
+.vier-sterren {
+width: 1140px;
+height: 80px;
+background-color: #10151A;
+text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+color: #E5E5E5;
+}
+
+.blauwgeel {
+width: 67px;
+height: 53px;
+}
+
+.geelpaars {
+    width: 55px;
+    height: 43px;
+}
